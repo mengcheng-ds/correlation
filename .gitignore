@@ -1,0 +1,32 @@
+# .gitignore for a Quarto website project (Python and/or R)
+# Generated with Claude (Anthropic) using the Psych 750 .gitignore prompt
+
+# Quarto
+/.quarto/
+/_site/
+*_files/
+*.quarto_ipynb
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# R and RStudio
+.Rhistory
+.RData
+.Rproj.user/
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
